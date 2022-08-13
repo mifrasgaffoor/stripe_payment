@@ -50,7 +50,7 @@ function Payment() {
         <br />
         <div className="form-group container">
           <StripeCheckout
-            stripeKey="pk_test_51L9SDgSDeH1Q9ufwHOAgvh6aLv9xhRYlkCg61vThzoEGdEgbxl0WLs5BuNyof3fR4LE3HHVIARsqbmxpCg1QwTAm00gTmn872w"
+            stripeKey="enter your api key "
             token={handleToken}
             amount={product.price * 100}
             name="Sample Book"
